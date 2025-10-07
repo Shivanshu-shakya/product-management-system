@@ -1,0 +1,52 @@
+# Database files (MySQL - no binary files, but ignore any backup/exports)
+*.sql
+!db/setup.php
+database_backup.sql
+*.sql.gz
+
+# Environment and configuration files
+.env
+config.local.php
+*.env.local
+
+# Log files
+*.log
+logs/
+error_log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-*
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Cache files
+cache/
+*.cache
+
+# XAMPP specific
+/xampp/
+/htdocs/tmp/
+
+# Composer (if you add PHP dependencies)
+vendor/
+composer.lock
+
+# Node.js (if you add frontend build tools)
+node_modules/
+package-lock.json
